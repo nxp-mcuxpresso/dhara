@@ -1,0 +1,12 @@
+NXP Software Content Register
+
+Package: dhara
+Version: 2.0.0
+Outgoing License: ISC
+License File: LICENSE
+Type of content: source code
+Description and comments: Dhara - Dhara is a small flash translation layer designed to be used in resource-constrained systems for managing NAND flash.
+Release Location: https://github.com/nxp-mcuxpresso/mcu-sdk-dhara
+Origin: 
+      Daniel Beer dhara project (ISC) - https://github.com/dlbeer/dhara
+      NXP (ISC)

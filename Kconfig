@@ -1,0 +1,18 @@
+#
+# Copyright 2024 NXP
+#
+# SPDX-License-Identifier: ISC
+#
+
+menu "dhara"
+    config MCUX_COMPONENT_middleware.dhara
+        bool "Component middleware.dhara"
+    
+    config MCUX_COMPONENT_middleware.dhara.dhara_ecc_bch
+        bool "Component middleware.dhara.dhara_ecc_bch"
+        select MCUX_COMPONENT_middleware.dhara
+    
+    config MCUX_COMPONENT_middleware.dhara.dhara_ecc_hamming
+        bool "Component middleware.dhara.dhara_ecc_hamming"
+        select MCUX_COMPONENT_middleware.dhara
+endmenu
