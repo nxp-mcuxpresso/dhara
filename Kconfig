@@ -6,13 +6,13 @@
 
 menu "dhara"
     config MCUX_COMPONENT_middleware.dhara
-        bool "Component middleware.dhara"
-    
+        bool "dhara source"
+
     config MCUX_COMPONENT_middleware.dhara.dhara_ecc_bch
-        bool "Component middleware.dhara.dhara_ecc_bch"
+        bool "ECC BCH code"
         select MCUX_COMPONENT_middleware.dhara
-    
+
     config MCUX_COMPONENT_middleware.dhara.dhara_ecc_hamming
-        bool "Component middleware.dhara.dhara_ecc_hamming"
+        bool "ECC Hamming code"
         select MCUX_COMPONENT_middleware.dhara
 endmenu
