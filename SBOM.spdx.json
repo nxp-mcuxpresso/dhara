@@ -1,0 +1,64 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-06-20T02:56:10Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "dhara-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/3f13e264-921d-4b0f-b5d4-f64b9677b126",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-3f13e264-921d-4b0f-b5d4-f64b9677b126",
+      "name": "dhara",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(ISC)",
+      "licenseDeclared": "(ISC)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/dhara",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-a4c0de34-b07b-45e1-8ceb-304896df83ae",
+      "name": "dhara",
+      "versionInfo": "20210916-snapshot-c877330a",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "homepage": "https://github.com/dlbeer/dhara",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: dlbeer",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/dlbeer/dhara@c877330a6d0d5aa5432b6e9995b1400b6a065399",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "41d84ba8-cbaa-4f3e-9d4a-fb297660830b",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-3f13e264-921d-4b0f-b5d4-f64b9677b126"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-3f13e264-921d-4b0f-b5d4-f64b9677b126",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-a4c0de34-b07b-45e1-8ceb-304896df83ae"
+    }
+  ]
+}
